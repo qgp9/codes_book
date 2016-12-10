@@ -1,0 +1,23 @@
+##### Target Number = 5712925402340856
+
+##### primeFactor.pl : perl v5.18.2
+2 x 2 x 2 x 3 x 3 x 3 x 3 x 3 x 3 x 7 x 241 x 24097 x 24097
+
+real	0m0.016s
+user	0m0.009s
+sys	0m0.004s
+
+##### primeFactor.js : nodejs v0.12.2
+1
+[ 2, 2, 2, 3, 3, 3, 3, 3, 3, 7, 241, 24097, 24097, 1 ]
+
+real	0m0.068s
+user	0m0.053s
+sys	0m0.014s
+
+##### primeFactor.cxx : clang-600.0.57 -O2Target number = 5712925402340856
+2 * 2 * 2 * 3 * 3 * 3 * 3 * 3 * 3 * 7 * 241 * 24097 * 24097 * 
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
