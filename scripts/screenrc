@@ -1,0 +1,23 @@
+defscrollback 10000 
+#startup_message off
+autodetach on
+vbell on
+
+### Title
+#defhstatus "<^En-^Et> ^Ew [^EM/^Ed(^ED) ^Ec]:"
+#hardstatus lastline
+
+### two Line
+#aption always "%3n %t%? @%u%?%? [%h]%?%=%c"
+#hardstatus alwayslastline "%{k+b d} %H %{wb} %c | %Y-%m-%d %{wr} Load: %l %{wk} %w "
+
+### One Line
+#caption "%t"
+#hardstatus alwayslastline "%n%t%? @%u%?%? [%h]%?%=%c %{k+b d} %H %{wb} %Y-%m-%d %{wr} Load: %l %{wk} %w "
+hardstatus alwayslastline 
+#hardstatus string "%{gk}[%h]%=%{k+b d}%{wb} %m-%d %c %{wr}%l%{wk} %-w%{Gk}%n*%t%{wk}%+w"
+#hardstatus string "%{gk}[%H]%{wb} %m-%d %c %{wr}%l%{wk} %-w%{Gk}%n*%t%{wk}%+w"
+#hardstatus string "%{wk}[%H]%{wk} %m-%d%c %{wK}%l  --   %{wk}%-w%{kw} %n*%t %{wk}%+w"
+hardstatus string '%{= kg}[ %{y}%H %{g}][%= %{=kw}%?%-w%?%{y}(%{W}%n*%t%?(%u)%?%{y})%{g}%?%+w%?%?%= %{g}][ %{y}%Y-%m-%d %{W}%c %D %{g}]'
+ 
+escape ^Gg
