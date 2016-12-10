@@ -1,0 +1,6 @@
+Constructor of MyClassBImpl : I==1
+Constructor of MyClassBImpl : default
+Constructor of MyClassBImpl : default
+doSomething in MyClassBImpl : I==1
+doSomething in MyClassBImpl : default
+doSomething in MyClassBImpl : default
