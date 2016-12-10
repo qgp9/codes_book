@@ -1,0 +1,7 @@
+# image file name must be "<mp3 filename>.png" 
+# ex) project/101.mp3.png
+
+project/101.mp3
+project/102.mp3
+project/103.mp3
+project/104.mp3
